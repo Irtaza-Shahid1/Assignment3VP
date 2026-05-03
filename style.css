@@ -44,3 +44,19 @@ a {
   text-decoration: none;
   color: inherit;
 }
+/* =========================NAVBAR======================== */
+.navbar-custom {
+  background: var(--yellow) !important;
+  padding: 14px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+ 
+.navbar-custom .navbar-brand {
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: var(--navy-dark) !important;
+  letter-spacing: -0.5px;
+}
