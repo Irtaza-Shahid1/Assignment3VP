@@ -104,3 +104,24 @@ a {
   border-radius: 50%;
   pointer-events: none;
 }
+.hero-badge {
+  display: inline-block;
+  background: var(--navy-dark);
+  color: var(--yellow);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  border-radius: 20px;
+  padding: 5px 14px;
+  margin-bottom: 18px;
+}
+ 
+.hero-title {
+  font-size: 2.6rem;
+  font-weight: 800;
+  line-height: 1.18;
+  color: var(--navy-dark);
+  margin-bottom: 18px;
+  letter-spacing: -0.5px;
+}
