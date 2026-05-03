@@ -87,3 +87,10 @@ a {
   background: var(--navy);
   transform: translateY(-1px);
 }
+/* =======================HERO SECTION===================== */
+.hero-section {
+  background: var(--yellow);
+  padding: 70px 0 0 0;
+  overflow: hidden;
+  position: relative;
+}
