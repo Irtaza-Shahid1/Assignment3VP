@@ -1,0 +1,19 @@
+/* === CSS VARIABLES === */
+:root {
+  --yellow: #FFC107;
+  --yellow-dark: #E6A800;
+  --yellow-light: #FFD54F;
+  --navy: #1A1A3E;
+  --navy-dark: #0F0F2D;
+  --purple: #3D3D8F;
+  --purple-light: #5A5AAF;
+  --white: #FFFFFF;
+  --light-bg: #F8F9FA;
+  --gray-text: #6C757D;
+  --dark-text: #1A1A2E;
+  --card-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  --card-shadow-hover: 0 8px 32px rgba(0, 0, 0, 0.14);
+  --radius: 12px;
+  --radius-sm: 8px;
+  --font-main: 'Poppins', sans-serif;
+}
