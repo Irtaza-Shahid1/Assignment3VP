@@ -306,3 +306,24 @@ a {
   object-fit: cover;
   border-radius: var(--radius);
 }
+.stat-bubble {
+  position: absolute;
+  background: var(--white);
+  border-radius: var(--radius-sm);
+  padding: 12px 18px;
+  box-shadow: var(--card-shadow);
+  bottom: 24px;
+  left: 24px;
+}
+ 
+.stat-bubble .stat-num {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--navy-dark);
+  display: block;
+}
+ 
+.stat-bubble .stat-label {
+  font-size: 0.75rem;
+  color: var(--gray-text);
+}
