@@ -327,3 +327,32 @@ a {
   font-size: 0.75rem;
   color: var(--gray-text);
 }
+.check-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+ 
+.check-list li {
+  font-size: 0.88rem;
+  color: var(--dark-text);
+  padding: 6px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+ 
+.check-list li::before {
+  content: '✓';
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  background: var(--yellow);
+  color: var(--navy-dark);
+  border-radius: 50%;
+  font-size: 0.75rem;
+  font-weight: 700;
+  flex-shrink: 0;
+}
