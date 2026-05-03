@@ -463,3 +463,20 @@ a {
   box-shadow: 0 6px 16px rgba(230, 168, 0, 0.4);
   color: var(--navy-dark);
 }
+.btn-dark-cta {
+  background: var(--navy-dark);
+  color: var(--white);
+  border: none;
+  border-radius: 25px;
+  padding: 11px 28px;
+  font-size: 0.88rem;
+  font-weight: 700;
+  transition: background 0.2s, transform 0.2s;
+  display: inline-block;
+}
+ 
+.btn-dark-cta:hover {
+  background: var(--navy);
+  transform: translateY(-2px);
+  color: var(--white);
+}
