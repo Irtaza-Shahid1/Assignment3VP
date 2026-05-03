@@ -254,3 +254,16 @@ a {
   margin-bottom: 16px;
   font-size: 1.3rem;
 }
+.feature-card h6 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--navy-dark);
+  margin-bottom: 8px;
+}
+ 
+.feature-card p {
+  font-size: 0.82rem;
+  color: var(--gray-text);
+  line-height: 1.6;
+  margin: 0;
+}
