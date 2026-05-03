@@ -267,3 +267,24 @@ a {
   line-height: 1.6;
   margin: 0;
 }
+/* ======================BRANDS / STATS BAR======================== */
+.brands-bar {
+  background: var(--light-bg);
+  padding: 28px 0;
+  border-top: 1px solid #EBEBEB;
+  border-bottom: 1px solid #EBEBEB;
+}
+ 
+.brands-bar .brand-item {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--gray-text);
+  opacity: 0.6;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  transition: opacity 0.2s;
+}
+ 
+.brands-bar .brand-item:hover {
+  opacity: 1;
+}
