@@ -356,3 +356,55 @@ a {
   font-weight: 700;
   flex-shrink: 0;
 }
+/* ==================ICONS GRID SECTION=================== */
+.icons-section {
+  background: var(--light-bg);
+  padding: 80px 0;
+}
+ 
+.icons-section .section-title,
+.icons-section .section-desc {
+  text-align: center;
+  margin: 0 auto 12px;
+}
+ 
+.icon-feature-card {
+  text-align: center;
+  padding: 28px 18px;
+  background: var(--white);
+  border-radius: var(--radius);
+  border: 1.5px solid #EFEFEF;
+  height: 100%;
+  transition: box-shadow 0.25s, transform 0.25s;
+}
+ 
+.icon-feature-card:hover {
+  box-shadow: var(--card-shadow-hover);
+  transform: translateY(-4px);
+}
+ 
+.icon-feature-card .icon-wrap {
+  width: 56px;
+  height: 56px;
+  background: var(--yellow);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 14px;
+  font-size: 1.4rem;
+}
+ 
+.icon-feature-card h6 {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--navy-dark);
+  margin-bottom: 8px;
+}
+ 
+.icon-feature-card p {
+  font-size: 0.8rem;
+  color: var(--gray-text);
+  line-height: 1.6;
+  margin: 0;
+}
