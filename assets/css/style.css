@@ -408,3 +408,40 @@ a {
   line-height: 1.6;
   margin: 0;
 }
+/* =============================================
+   CTA YELLOW SECTION
+   ============================================= */
+.cta-yellow {
+  background: var(--yellow);
+  padding: 70px 0;
+}
+ 
+.cta-yellow .section-title {
+  font-size: 2rem;
+  max-width: 520px;
+}
+ 
+.cta-yellow .section-desc {
+  max-width: 440px;
+}
+ 
+.cta-card {
+  background: var(--white);
+  border-radius: var(--radius);
+  padding: 30px 28px;
+  box-shadow: var(--card-shadow);
+}
+ 
+.cta-card h5 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--navy-dark);
+  margin-bottom: 10px;
+}
+ 
+.cta-card p {
+  font-size: 0.85rem;
+  color: var(--gray-text);
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
