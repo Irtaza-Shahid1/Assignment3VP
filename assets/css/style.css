@@ -228,3 +228,29 @@ a {
   line-height: 1.7;
   max-width: 480px;
 }
+.feature-card {
+  background: var(--white);
+  border: 1.5px solid #EFEFEF;
+  border-radius: var(--radius);
+  padding: 28px 24px;
+  height: 100%;
+  transition: box-shadow 0.25s, transform 0.25s, border-color 0.25s;
+}
+ 
+.feature-card:hover {
+  box-shadow: var(--card-shadow-hover);
+  transform: translateY(-4px);
+  border-color: var(--yellow);
+}
+ 
+.feature-icon-wrap {
+  width: 48px;
+  height: 48px;
+  background: var(--yellow);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+  font-size: 1.3rem;
+}
