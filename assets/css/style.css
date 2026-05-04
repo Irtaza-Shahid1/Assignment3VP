@@ -55,7 +55,7 @@ a {
    NAVBAR
    ============================================= */
 .navbar-custom {
-  background: var(--yellow) !important;
+  background: var(--white) !important;
   padding: 14px 0;
   position: sticky;
   top: 0;
@@ -83,7 +83,7 @@ a {
 }
 
 .btn-nav-cta {
-  background: var(--navy-dark);
+  background: var(--purple-light);
   color: var(--white) !important;
   border-radius: 20px;
   padding: 7px 22px !important;
@@ -93,7 +93,7 @@ a {
 }
 
 .btn-nav-cta:hover {
-  background: var(--navy);
+  background: var(--white);
   transform: translateY(-1px);
 }
 
@@ -101,7 +101,7 @@ a {
    HERO SECTION
    ============================================= */
 .hero-section {
-  background: var(--yellow);
+  background: var(--white);
   padding: 70px 0 0 0;
   overflow: hidden;
   position: relative;
